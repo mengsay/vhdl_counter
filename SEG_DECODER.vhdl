@@ -3,8 +3,8 @@ use IEEE.std_logic_1164.all;
 
 entity seg_decoder is 
     port(
-        in_bcd : in std_logic_vector(0 to 3);
-        out_seg: out std_logic_vector(0 to 6)
+        in_bcd : in std_logic_vector(0 to 3);  --input
+        out_seg: out std_logic_vector(0 to 6)  --output
     );
 end seg_decoder;
 
